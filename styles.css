@@ -1,0 +1,18 @@
+.container {
+  height: 900px;
+  width: 1200px;
+  border: 10px dotted red;
+  padding: 20px;
+  /* background-image: linear-gradient(rgba(243, 223, 6, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./helicopter.png"), url("./paris.jpg"); */
+  background-image: url("./paris.jpg");
+  background-repeat: no-repeat;
+  background-size: cover, 200px, cover;
+  filter: grayscale(80%);
+  /*
+  background-position: center, center; */
+  /*background-origin: content-box;
+  background-position: top 20% right 40%; */
+  /* background: url("./paris.jpg") blue top 20% right 40% / cover no-repeat
+    content-box padding-box; */
+}
